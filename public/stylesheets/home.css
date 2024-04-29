@@ -1,34 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Completed</title>
-    <link rel="stylesheet" type="text/css" href="/stylesheets/restaurant.css">
-    <script src="/javascripts/completed.js"></script> 
-</head>
-<body>
-    <header>
-        <h1>Welcome to Foodio</h1>
-        <nav>
-            <ul class="navbar">
-                <li><a href="/cancelled" class="scroll-link">Cancelled Orders</a></li>
-                <li><a href="/restaurant" class="scroll-link">Orders</a></li>
-                <li><a href="/completed" class="scroll-link">Completed Orders</a></li>
-            </ul>
-        </nav>
-    </header>
-    
 
-    <footer>
-        <p>&copy; 2024 FOODIO. All rights reserved.</p>
-    </footer>
-</body>
-</html>
 *{
     margin: 0;
     padding:0 ;
     box-sizing: border-box;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
 
 }
 a{

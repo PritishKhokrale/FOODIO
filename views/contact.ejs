@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: Arial, sans-serif;">
+    <div style="
+        background-image: url('/images/leaf.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    ">
+        <div style="
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 2.5rem;
+            width: 90%;
+            max-width: 600px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        ">
+            <h2 style="color: #333; font-size: 2rem; margin-bottom: 1rem;">Contact Us</h2>
+            <p style="color: #555; font-size: 1.1rem; margin-bottom: 1.5rem;">
+                We're here to help. Please fill out the form below, and we'll get back to you shortly.
+            </p>
+            <form id="contact-form">
+                <div style="margin-bottom: 1.2rem; text-align: left;">
+                    <label for="name" style="font-weight: bold; color: #333;">Name:</label>
+                    <input type="text" id="name" name="name" required style="
+                        width: 100%;
+                        padding: 0.75rem;
+                        border: 1px solid #ccc;
+                        border-radius: 8px;
+                        font-size: 1rem;
+                        box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+                    ">
+                </div>
+                <div style="margin-bottom: 1.2rem; text-align: left;">
+                    <label for="email" style="font-weight: bold; color: #333;">Email:</label>
+                    <input type="email" id="email" name="email" required style="
+                        width: 100%;
+                        padding: 0.75rem;
+                        border: 1px solid #ccc;
+                        border-radius: 8px;
+                        font-size: 1rem;
+                        box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+                    ">
+                </div>
+                <div style="margin-bottom: 1.2rem; text-align: left;">
+                    <label for="subject" style="font-weight: bold; color: #333;">Subject:</label>
+                    <input type="text" id="subject" name="subject" required style="
+                        width: 100%;
+                        padding: 0.75rem;
+                        border: 1px solid #ccc;
+                        border-radius: 8px;
+                        font-size: 1rem;
+                        box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+                    ">
+                </div>
+                <div style="margin-bottom: 1.2rem; text-align: left;">
+                    <label for="message" style="font-weight: bold; color: #333;">Message:</label>
+                    <textarea id="message" name="message" rows="5" required style="
+                        width: 100%;
+                        padding: 0.75rem;
+                        border: 1px solid #ccc;
+                        border-radius: 8px;
+                        font-size: 1rem;
+                        box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+                    "></textarea>
+                </div>
+                <button type="submit" style="
+                    background-color: #28a745; /* Green color */
+                    color: white;
+                    padding: 1rem 2rem;
+                    border: none;
+                    border-radius: 10px;
+                    font-size: 1.1rem;
+                    cursor: pointer;
+                    transition: background-color 0.3s;
+                ">Send</button>
+            </form>
+        </div>
+    </div>
+</body>

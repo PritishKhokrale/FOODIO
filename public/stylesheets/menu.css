@@ -169,3 +169,92 @@ i{
         grid-template-columns: 1fr;
     }
 }
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px 20px; /* Increased padding */
+}
+
+.footer-container {
+    max-width: 1200px; /* Limit max width for larger screens */
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; /* Ensure responsiveness */
+    justify-content: space-between;
+    align-items: start;
+}
+
+.footer-section {
+    flex: 1; /* Gives equal space to each section */
+    min-width: 200px; /* Minimum width for small devices */
+    margin: 10px;
+}
+
+.footer-section h3 {
+    font-size: 1.5em; /* Larger headers */
+    margin-bottom: 20px; /* Increased spacing */
+}
+
+.footer-section p {
+    font-size: 1.1em; /* Larger paragraph text */
+    line-height: 1.6; /* Improved readability */
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em; /* Larger links */
+    display: block; /* Block display for better tap targets */
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #f8a488;
+}
+
+.footer-button {
+    background-color: #181212;
+    color: white;
+    padding: 10px 20px; /* Larger button */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em; /* Larger button text */
+    transition: background-color 0.3s;
+    display: inline-block; /* Ensures the button is a block-level element but flows like inline */
+    margin: 0 auto; /* Centering the button horizontally */
+}
+
+.footer-button:hover {
+    background-color: #808080;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+    font-size: 24px; /* Larger icons */
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #f8a488;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column; /* Stack sections on small screens */
+        align-items: center;
+    }
+
+    .footer-section {
+        margin-bottom: 20px; /* More space between sections */
+    }
+}
+

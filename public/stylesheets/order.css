@@ -186,3 +186,37 @@ input[type="submit"]:hover {
 .restaurant::-webkit-scrollbar-thumb:hover, .response::-webkit-scrollbar-thumb:hover {
     background: #555; /* Darker on hover */
 }
+.forminside {
+    display: flex;
+    align-items: center;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .forminside label {
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  
+  .forminside select {
+
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 1rem;
+    color: #333;
+    transition: all 0.3s;
+  }
+  
+  .forminside select:focus {
+    border-color:#333;
+    outline: none;
+  }
+  
+  .forminside select option {
+    color: #333;
+  }
+  

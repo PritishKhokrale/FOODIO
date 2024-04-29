@@ -41,6 +41,13 @@ app.get("/home", isAuthenticated1, (req,res) =>{
 app.get("/menu", isAuthenticated1, (req,res) =>{
   res.render("menu");
 });
+app.get("/about", isAuthenticated1, (req,res) =>{
+  res.render("about");
+});
+app.get("/contact", isAuthenticated1, (req,res) =>{
+  res.render("contact");
+});
+
 
 app.get("/categories", isAuthenticated1,(req,res)=>{
 res.render("categories");
